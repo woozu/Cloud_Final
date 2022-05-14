@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Main";
+}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            #submit1 {
+                border: 1px solid black; 
+                background-color: white;
+                color: black;
+                padding: 5px;
+                border-radius: 5px;
+                margin-right:-4px;
+                height : 50px;
+                width : 75px;
+            }
+            #submit1:hover {
+                color:white;
+                background-color: black;
+            }
+            select {
+                height : 50px;
+                width : 300px;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="GET" action="/AED">
+            <div style="text-align:center;">
+                <h3>부산 자동제세동기 위치 찾기 서비스입니다.<br></h3>
+                <h8>찾고싶으신 구를 선택해주세요.<br></h8>
+                <select name="s1">
+                    <option value="" style="text-align:center;">지역구 선택</option>
+                    <option value="중구">중구</option>
+                    <option value="서구">서구</option>
+                    <option value="동구">동구</option>
+                    <option value="영도구">영도구</option>
+                    <option value="부산진구">부산진구</option>
+                    <option value="동래구">동래구</option>
+                    <option value="남구">남구</option>
+                    <option value="북구">북구</option>
+                    <option value="해운대구">해운대구</option>
+                    <option value="사하구">사하구</option>
+                    <option value="금정구">금정구</option>
+                    <option value="강서구">강서구</option>
+                    <option value="연제구">연제구</option>
+                    <option value="수영구">수영구</option>
+                    <option value="사상구">사상구</option>
+                    <option value="기장군">기장군</option>
+                </select>
+                <input type="submit" id="submit1" value="확인">
+            </div>
+        </form>
+    </body>
+</html>

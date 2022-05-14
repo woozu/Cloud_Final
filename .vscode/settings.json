@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net5.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/f72f60c7-598b-4a39-844f-54faf5a56d9e/resourceGroups/AEDwebapp/providers/Microsoft.Web/sites/AEDwebapp"
+}
